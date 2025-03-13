@@ -1,0 +1,178 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "baggage",
+      "plane"
+    ],
+    "ocel:attribute-names": [],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "e1": {
+      "ocel:activity": "Fuel plane",
+      "ocel:timestamp": "2023-01-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "p1"
+      ]
+    },
+    "e2": {
+      "ocel:activity": "Check-in",
+      "ocel:timestamp": "2023-01-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "b1",
+	"b2"
+      ]
+    },
+    "e3": {
+      "ocel:activity": "Load cargo",
+      "ocel:timestamp": "2023-03-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "p1"
+      ]
+    },
+    "e4": {
+      "ocel:activity": "Lift off",
+      "ocel:timestamp": "2023-03-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "p1"
+      ]
+    },
+    "e5": {
+      "ocel:activity": "Unload",
+      "ocel:timestamp": "2023-03-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "b2",
+        "p1"
+      ]
+    },
+    "e6": {
+      "ocel:activity": "Clean",
+      "ocel:timestamp": "2023-04-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "p1"
+      ]
+    },
+    "e7": {
+      "ocel:activity": "Pick up @ dest",
+      "ocel:timestamp": "2023-04-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+	"b1",
+        "b2"
+      ]
+    },
+   "e8": {
+      "ocel:activity": "Fuel plane",
+      "ocel:timestamp": "2023-04-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "p2"
+      ]
+    },
+   "e9": {
+      "ocel:activity": "Check-in",
+      "ocel:timestamp": "2023-04-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "b3"
+      ]
+    },
+   "e10": {
+      "ocel:activity": "Check-in",
+      "ocel:timestamp": "2023-04-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "b4"
+      ]
+    },
+  "e11": {
+      "ocel:activity": "Load cargo",
+      "ocel:timestamp": "2023-04-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "p2",
+        "b3"
+      ]
+    },
+  "e12": {
+      "ocel:activity": "Lift off",
+      "ocel:timestamp": "2023-04-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "p2"
+      ]
+    },
+   "e13": {
+      "ocel:activity": "Unload",
+      "ocel:timestamp": "2023-04-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "b4",
+	"p2"
+      ]
+    },
+   "e14": {
+      "ocel:activity": "Clean",
+      "ocel:timestamp": "2023-04-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "p2"
+      ]
+    },
+  "e15": {
+      "ocel:activity": "Pick up @ dest",
+      "ocel:timestamp": "2023-04-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "b3"
+      ]
+    },
+  "e16": {
+      "ocel:activity": "Pick up @ dest",
+      "ocel:timestamp": "2023-04-03T16:00:00+00:00",
+      "ocel:vmap": {},
+      "ocel:omap": [
+        "b4"
+      ]
+    }
+  },
+  "ocel:objects": {
+    "b1": {
+      "ocel:type": "baggage",
+      "ocel:ovmap": {}
+    },
+    "b2": {
+      "ocel:type": "baggage",
+      "ocel:ovmap": {}
+    },
+    "b3": {
+      "ocel:type": "baggage",
+      "ocel:ovmap": {}
+    },
+    "b4": {
+      "ocel:type": "baggage",
+      "ocel:ovmap": {}
+    },
+    "p1": {
+      "ocel:type": "plane",
+      "ocel:ovmap": {}
+    },
+    "p2": {
+      "ocel:type": "plane",
+      "ocel:ovmap": {}
+    }
+  }
+}
